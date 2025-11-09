@@ -9,12 +9,8 @@ return new class extends Migration {
      * Run the migrations.
      */
     public function up(): void {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('password');
-            $table->timestamps();
+        Schema::table('toko_laundries', function (Blueprint $table) {
+            $table->string('slug')->unique()->nullable();
         });
     }
 
@@ -22,6 +18,8 @@ return new class extends Migration {
      * Reverse the migrations.
      */
     public function down(): void {
-        Schema::dropIfExists('users');
+        Schema::table('toko_laundries', function (Blueprint $table) {
+            //
+        });
     }
 };

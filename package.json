@@ -6,8 +6,33 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "autoprefixer": "^10.4.21",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.16",
         "vite": "^5.0.0"
+    },
+    "name": "kilatkering",
+    "version": "1.0.0",
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+    "main": "vite.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elenaoktaviani/UTP_PWL.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/elenaoktaviani/UTP_PWL/issues"
+    },
+    "homepage": "https://github.com/elenaoktaviani/UTP_PWL#readme",
+    "dependencies": {
+        "@heroicons/vue": "^2.2.0",
+        "@tailwindcss/vite": "^4.1.16"
     }
 }
